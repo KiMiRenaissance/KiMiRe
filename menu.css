@@ -1,0 +1,179 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    color: #f4e9cd;
+    background-color: #031926;
+}
+
+.fcontainer {
+    background-color: #f4e9cd;
+    height: 100vh;
+}
+
+.container-navbar {
+    
+}
+
+.wrapper {
+    background-color: #031926;
+    height: 8%;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    font-size: 4vh;
+}
+
+.firstname {
+        color: 9dbebb;
+    margin-right: .5vh;
+}
+
+.lastname {
+        color: 9dbebb;
+    margin-left: .5vh;
+}
+
+.container-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4e9cd;
+}
+
+.container-pengumuman {
+    display: flex;
+}
+
+.ul-pengumuman {
+    background-color: #f4e9cd;
+}
+
+.li-pengumuman {
+    display: flex;;
+    background-color: #468189;
+    height: 18vh;
+    width: 28vh;
+    margin-left: 1vh;
+    margin-top: 1vh;
+    border-radius: 1vh;
+}
+
+.a-pengumuman {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5vh;
+    list-style-type: none;
+    border: none;
+    background: none;
+}
+
+.a-img {
+    display: flex;
+    height: 16.5vh;
+    width: 28vh;
+    border-end-start-radius: 1vh;
+    border-end-end-radius: 1vh;
+}
+
+.a-pengumuman:hover {
+    font-size: 1.4vh;
+}
+
+.a-img:hover {
+    height: 16.6vh;
+    width: 27.6vh;
+}
+
+.li-pengumuman:hover {
+    display: flex;
+    height: 17.6vh;
+    width: 27.6vh;
+    margin-left: 1.2vh;
+}
+
+.container-menu {
+    display: flex;
+}
+
+.ul-menu {
+    background-color: #9dbebb;
+    width: 20vh;
+    height: 88vh;
+}
+
+.li-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    flex-direction: column;
+    color: #031926;
+    font-size: 2.5vh;
+    background-color: #9dbebb;
+}
+
+.p-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vh;
+    flex-direction: column;
+    margin-left: 1.2vh;
+    color: #468189;
+    background-color: #9dbebb;
+    display: flex;
+}
+
+.a-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f4e9cd;
+    background-color: #9dbebb;
+    text-decoration: none;
+    width: 20vh;
+    font-size: 2vh;
+    margin-top: .5vh;
+    border: none;
+}
+
+.a-menu:hover {
+    color: #468189;
+    font-size: 1.8vh;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    cursor: pointer;
+}
+
+.container-footer {
+    height: 4vh;
+}
+
+.ul-footer {
+    background-color: #031926;
+    height: 4vh;
+}
+
+.li-footer {
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9dbebb;
+    font-size: 2vh;
+    height: 4vh;
+}
